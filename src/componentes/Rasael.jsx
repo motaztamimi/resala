@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { dataBase } from "../config/firebase";
+import BookElement from "./BookElement";
 const Rasael = () => {
   const [files, setFiles] = useState(null);
 
@@ -18,7 +19,10 @@ const Rasael = () => {
 
   return (
     <div>
-      hello world{files !== null ? console.log(files) : console.log(false)}
+      {files &&
+        files.map((item, index) => {
+          return <BookElement doc={item} key={index}></BookElement>;
+        })}
     </div>
   );
 };
