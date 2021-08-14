@@ -1,16 +1,22 @@
+.body{scroll-behavior:smooth!important;}
+
 .projectIdeaMainSec {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0;
   margin: 0;
-  background-color: #88bdbc;
+  background-image: url("../componentes/R.jpg");
   min-height: 100vh;
+  scroll-behavior: smooth;
 }
 .ideaText {
   background-color: white;
   min-height: 100vh;
   padding: 20px;
+  
+  scroll-behavior: smooth;
+  
   text-align: center;
   width: 50%;
 }
@@ -36,11 +42,99 @@
 }
 .ideaText h3 {
   text-align: right;
-  font-size: 1rem;
+  
   margin: 1px;
 }
 .ideaText h4 {
   text-align: right;
-  font-size: 1rem;
+  
   margin: 1px;
+}
+.Sectiontext{
+  text-align: right;
+  font-size: 0.8rem;
+  padding: 0px;
+  line-height: 1;
+}
+.Liprop{
+  list-style-type: circle;
+  line-height: 1.4;
+}
+.Liprop1{
+ list-style-type: disc; 
+}
+.endText{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.endText p{
+margin: 0 ;
+}
+.linkednames{
+  position:absolute;
+  z-index: 99;
+  margin-right: 5%;
+  top: 20%;
+  right: 0;
+}
+.linkednames ul {
+  list-style-type: circle;
+  line-height: 1.5;
+ 
+} 
+.linkednames li {
+  text-decoration: none; 
+}
+
+a{   
+  text-decoration: none;
+  color: black;   
+}
+.linkednames li:hover {
+  text-decoration: underline; 
+  text-decoration-color: rgb(133, 133, 34);
+
+}
+
+a:active {
+  color: rgb(10, 35, 36);
+scroll-behavior: smooth;
+}
+
+.linkednames li:hover::marker { 
+  color: rgb(203, 243, 240);
+} 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+.Scroll a{
+  position: fixed;
+  right: 80%;
+  bottom: 0;
+  width: 100px;
+  color: rgb(22, 22, 22);
+ 
+  opacity: 0.7;
+}
+.Scroll a:hover{
+  opacity: 1;
 }

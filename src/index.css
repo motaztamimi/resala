@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-size: 34px;
   direction: rtl;
+  scroll-behavior: smooth;
 }
 .container {
   display: flex;
@@ -12,7 +13,9 @@ body {
   justify-content: center;
   width: 100%;
   min-height: 100vh;
-  background-color: #88bdbc;
+  background-image: url("./componentes/R.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .projectTitle {
   font-size: 1.5rem;
@@ -31,7 +34,7 @@ body {
   display: inline-block;
   border: none;
   border-radius: 5px;
-  background-color: rgb(31, 165, 120);
+  background-color: rgb(51, 168, 139);
 }
 .selectSection a:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
