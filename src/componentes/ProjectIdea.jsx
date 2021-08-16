@@ -47,7 +47,9 @@ const projectIdea = () => {
         <h2 className='IdeaMainPlan'>
           {" "}
           <u id="mmm">معالم الخطة الرئيسة : </u>
+          
         </h2>
+        <br />
         <h3>
           <u>تنقسم الخطة إلى قسمين : </u>
         </h3>
