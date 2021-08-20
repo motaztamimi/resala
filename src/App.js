@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ProjectIdea from "./componentes/ProjectIdea";
 import Rasael from "./componentes/Rasael";
+import SearchRsael from './componentes/SearchRsael';
 function App() {
   return (
     <Router>
@@ -16,7 +17,7 @@ function App() {
             <div className='selectSection'>
               <Link to='/projectIdea'> فكرة المشروع</Link>
               <Link to='/Rasael'>تفصح وتحميل الرسائل </Link>
-              <Link to='/Rasael'>كشف بأسماء الرسايل</Link>
+              <Link to='/table'>كشف بأسماء الرسايل</Link>
             </div>
           </div>
         </Route>
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route exact path='/Rasael'>
           <Rasael></Rasael>
+        </Route>
+        <Route exact path='/table'>
+          <SearchRsael></SearchRsael>
         </Route>
       </Switch>
     </Router>
