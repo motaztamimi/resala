@@ -8,6 +8,7 @@ const Rasael = () => {
   useEffect(() => {
     dataBase
       .collection("pdfs")
+      .orderBy("fileOrder")
       .get()
       .then((items) => {
         let temp = [];
