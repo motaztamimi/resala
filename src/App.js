@@ -7,11 +7,16 @@ function App() {
       <Switch>
         <Route exact path='/'>
           <div className='container'>
-            <h1 className='projectTitle'>رسائل فتح القدير كاملة
-</h1>
+            <h1 className='projectTitle'>
+              تحقيق كتاب فتح القدير للكمال بن الهمام
+            </h1>
+            <h1 className='projectTitle'>
+              على الهداية شرح بداية المبتدي لبرهان الدين المرغيناني
+            </h1>
             <div className='selectSection'>
               <Link to='/projectIdea'> فكرة المشروع</Link>
-              <Link to='/Rasael'>الرسائل </Link>
+              <Link to='/Rasael'>تفصح وتحميل الرسائل </Link>
+              <Link to='/Rasael'>كشف بأسماء الرسايل</Link>
             </div>
           </div>
         </Route>
