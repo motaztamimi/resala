@@ -20,11 +20,11 @@ body {
   background-repeat:repeat;
 
 }
-.container h4{
+.toptext h4{
   font-family: 'Cairo', sans-serif;
   color: rgba(248, 172, 0, 0.8549019607843137);
 }
-.container h3{
+.toptext h3{
   font-family: 'Cairo', sans-serif;
   color: white;
 }
