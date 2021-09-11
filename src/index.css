@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap");
 html,
 body {
   overflow-x: hidden;
@@ -9,35 +9,31 @@ body {
   scroll-behavior: smooth;
 }
 .container {
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   min-height: 100vh;
 
-  background-image:url("./componentes/Asset\ 16.png"),url("./componentes/Asset\ 17.png") ;
+  background-image: url("./componentes/Asset\ 16.png"),
+    url("./componentes/Asset\ 17.png");
   background-blend-mode: hard-light;
-  background-repeat:repeat;
-
+  background-repeat: repeat;
 }
-.toptext h4{
-  font-family: 'Cairo', sans-serif;
+.toptext h4 {
   color: rgba(248, 172, 0, 0.8549019607843137);
 }
-.toptext h3{
-  font-family: 'Cairo', sans-serif;
+.toptext h3 {
   color: white;
 }
-.toptext{
-display: flex;
-flex-direction: column;
-text-align: center;
-margin-bottom: 50px;
-margin-top: 50px;
-
+.toptext {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .projectTitle {
-  
   padding: 10px;
   margin: 0;
 }
@@ -58,18 +54,23 @@ margin-top: 50px;
   color: inherit;
   margin: 30px;
   padding: 20px;
-  
+
   display: inline-block;
   border: none;
   border-radius: 45px;
-  background: repeating-radial-gradient( rgb(251, 184, 0),rgb(248, 172, 0),rgb(253, 196, 0) ,rgb(253, 198, 0)) 
+  background: repeating-radial-gradient(
+    rgb(251, 184, 0),
+    rgb(248, 172, 0),
+    rgb(253, 196, 0),
+    rgb(253, 198, 0)
+  );
 }
 .selectSection a:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
-#imageHomepage{
+#imageHomepage {
   position: relative;
-  
-object-fit: fill;
+
+  object-fit: fill;
   bottom: 0;
 }
