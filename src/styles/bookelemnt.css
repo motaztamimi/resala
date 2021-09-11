@@ -15,20 +15,25 @@
   padding: 10px;
   text-align: center;
 }
-.eachpdf > *{
-  flex:  auto;
-  width: 25%;;
+.eachpdf > * {
+  flex: auto;
+  width: 25%;
 }
-.shadow{
-  background:  linear-gradient( rgb(251, 184, 0),rgb(248, 172, 0),rgb(253, 196, 0) ,rgb(253, 198, 0)) 
+.shadow {
+  background: linear-gradient(
+    rgb(251, 184, 0),
+    rgb(248, 172, 0),
+    rgb(253, 196, 0),
+    rgb(253, 198, 0)
+  );
 }
 .eachpdf img {
   width: 20%;
   margin-bottom: 25px;
- max-height: 80px;
+  max-height: 80px;
 }
 .eachpdf button {
-  background-color: rgb(19,54,37);
+  background-color: rgb(19, 54, 37);
   border: none;
   max-height: 50px;
   width: 200px;
@@ -53,7 +58,7 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  
+
   margin-top: 20px;
 }
 .eachpdf:hover {
@@ -71,7 +76,7 @@ h5 {
   padding: 12px;
   font-weight: 800;
 }
-.topic{
+.topic {
   width: 80%;
   display: flex;
   margin: 0 auto;
@@ -80,23 +85,28 @@ h5 {
   align-items: center;
 }
 
-.topic h1{
+.topic h1 {
   color: white;
-
 }
-.topic button{
+.topic a {
   color: white;
+  text-decoration: none;
+  text-align: center;
   font-weight: 900;
   width: 300px;
   height: fit-content;
-  background: repeating-radial-gradient( rgb(251, 184, 0),rgb(248, 172, 0),rgb(253, 196, 0) ,rgb(253, 198, 0)) ;
+  background: repeating-radial-gradient(
+    rgb(251, 184, 0),
+    rgb(248, 172, 0),
+    rgb(253, 196, 0),
+    rgb(253, 198, 0)
+  );
   font-size: 20px;
   padding: 10px 0 10px 0;
   color: black;
   border-radius: 45px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
 }
 .searchInput {
   font-size: 0.7rem;
@@ -109,7 +119,8 @@ h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("../componentes/Asset\ 16.png"), url("../componentes/Asset\ 17.png");
+  background-image: url("../componentes/Asset\ 16.png"),
+    url("../componentes/Asset\ 17.png");
   background-blend-mode: hard-light;
   padding-left: 50px;
   padding-right: 50px;
