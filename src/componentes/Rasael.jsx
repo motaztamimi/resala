@@ -13,6 +13,7 @@ const Rasael = () => {
     }
     files.forEach((file) => {
       if (
+        
         file.fileName.includes(serachStr) ||
         file.fileAuther.includes(serachStr)
       ) {
@@ -45,6 +46,7 @@ const Rasael = () => {
           onSearchInputChange(e.target.value);
         }}
       />
+      
       <div className='pdffiles'>
         {searchResult &&
           searchResult.map((item, index) => {

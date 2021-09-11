@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
 html,
 body {
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   font-size: 34px;
@@ -7,38 +9,67 @@ body {
   scroll-behavior: smooth;
 }
 .container {
-  display: flex;
+    display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background-image: url("./componentes/blue-brushstrokes-background_125540-809.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
+  background-image:url("./componentes/Asset\ 16.png"),url("./componentes/Asset\ 17.png") ;
+  background-blend-mode: hard-light;
+  background-repeat:repeat;
+
+}
+.container h4{
+  font-family: 'Cairo', sans-serif;
+  color: rgba(248, 172, 0, 0.8549019607843137);
+}
+.container h3{
+  font-family: 'Cairo', sans-serif;
+  color: white;
+}
+.toptext{
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-bottom: 50px;
+margin-top: 50px;
+
 }
 .projectTitle {
-  font-size: 1.5rem;
+  
   padding: 10px;
   margin: 0;
 }
 .selectSection {
-  position: absolute;
+  position: relative;
   top: 50%;
+
   margin: 0 auto;
+  margin-bottom: 50px;
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 1.3rem;
 }
 .selectSection a {
   text-decoration: none;
+
   color: inherit;
   margin: 30px;
   padding: 20px;
+  
   display: inline-block;
   border: none;
-  border-radius: 5px;
-  background-color: rgb(51, 168, 139);
+  border-radius: 45px;
+  background: repeating-radial-gradient( rgb(251, 184, 0),rgb(248, 172, 0),rgb(253, 196, 0) ,rgb(253, 198, 0)) 
 }
 .selectSection a:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+#imageHomepage{
+  position: relative;
+  
+object-fit: fill;
+  bottom: 0;
 }
