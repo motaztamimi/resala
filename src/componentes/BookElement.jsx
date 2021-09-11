@@ -1,21 +1,17 @@
 import "../styles/bookelemnt.css";
-import imge from "../componentes/download.jpg"
+import imge from "../componentes/book.png";
 const BookElement = ({ doc }) => {
   return (
-    <div className="eachpdf">
+    <div className='eachpdf'>
       <img src={imge} alt='' />
-      <div className="containerr">
-      <h5>{doc.fileName}</h5>
-      <h5>{doc.fileAuther}</h5>
-      
-      </div >
-      <div>
-        
+      <div className='containerr'>
+        <h5>{doc.fileName}</h5>
+        <h5>{doc.fileAuther}</h5>
       </div>
-      <button >
-      <a   href={doc.fileLink}>للتصفح والتنزيل</a>
+      <div></div>
+      <button>
+        <a href={doc.fileLink}>للتصفح والتنزيل</a>
       </button>
-    
     </div>
   );
 };
