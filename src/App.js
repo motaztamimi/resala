@@ -1,15 +1,15 @@
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Projectadministrator from "./componentes/Projectadministrator";
 import ProjectIdea from "./componentes/ProjectIdea";
 import Rasael from "./componentes/Rasael";
-import SearchRsael from './componentes/SearchRsael';
+import SearchRsael from "./componentes/SearchRsael";
 import MainPagee from "./componentes/MainPagee";
 function App() {
   return (
     <Router>
       <Switch>
         <Route exact path='/'>
-        <MainPagee/>
+          <MainPagee />
         </Route>
         <Route exact path='/projectIdea'>
           <ProjectIdea />
