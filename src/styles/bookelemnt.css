@@ -1,8 +1,10 @@
 .eachpdf {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 30%;
-  border-radius: 5px;
+  width: 20%;
+  background-color: aliceblue;
+  height: 300px;
+  border-radius: 35px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -10,24 +12,32 @@
   flex-direction: column;
   max-height: auto;
   margin: 10px;
+  padding: 10px;
   text-align: center;
+}
+.eachpdf > *{
+  flex:  auto;
+  width: 25%;;
+}
+.shadow{
+  background:  linear-gradient( rgb(251, 184, 0),rgb(248, 172, 0),rgb(253, 196, 0) ,rgb(253, 198, 0)) 
 }
 .eachpdf img {
-  width: 120px;
-  margin-bottom: 10px;
+  width: 20%;
+  margin-bottom: 25px;
+ max-height: 80px;
 }
 .eachpdf button {
-  background-color: #4caf50;
+  background-color: rgb(19,54,37);
   border: none;
-  color: rgb(255, 59, 59);
-  text-decoration: none;
+  max-height: 50px;
+  width: 200px;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 20px;
-  opacity: 0.9;
+  border-radius: 35px;
+  opacity: 1;
 }
 .eachpdf button a {
   text-decoration: none;
@@ -43,7 +53,7 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
-  background-image: url("../componentes/g.jpg");
+  
   margin-top: 20px;
 }
 .eachpdf:hover {
@@ -59,10 +69,39 @@
 h5 {
   margin: 0;
   padding: 12px;
+  font-weight: 800;
+}
+.topic{
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topic h1{
+  color: white;
+
+}
+.topic button{
+  color: white;
+  font-weight: 900;
+  width: 300px;
+  height: fit-content;
+  background: repeating-radial-gradient( rgb(251, 184, 0),rgb(248, 172, 0),rgb(253, 196, 0) ,rgb(253, 198, 0)) ;
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+  color: black;
+  border-radius: 45px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
 }
 .searchInput {
-  font-size: 1.2rem;
-  margin: 10px;
+  font-size: 0.7rem;
+
+  border-radius: 45px;
   direction: rtl;
   padding: 10px;
 }
@@ -70,4 +109,8 @@ h5 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("../componentes/Asset\ 16.png"), url("../componentes/Asset\ 17.png");
+  background-blend-mode: hard-light;
+  padding-left: 50px;
+  padding-right: 50px;
 }
