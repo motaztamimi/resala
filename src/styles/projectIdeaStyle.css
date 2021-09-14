@@ -72,6 +72,9 @@
 .ideaText .Openning {
   margin: 0;
 }
+.ideaText h1 {
+  text-align: center;
+}
 .ideaText .Openning2 {
   margin: 0;
   padding: 20px;
