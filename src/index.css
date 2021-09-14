@@ -54,7 +54,7 @@ body {
   font-weight: 600;
   color: inherit;
   margin: 30px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 15px 15px 10px;
   text-align: center;
 
   display: inline-block;
@@ -71,8 +71,13 @@ body {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 #imageHomepage {
-  position: absolute;
+  position: static;
 
-  object-fit: fill;
+  object-fit: cover;
   bottom: 0;
+}
+.selectSection i{
+  
+  font-size: 34px;
+  margin-left: 5px;
 }
