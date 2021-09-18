@@ -1,39 +1,45 @@
-  .holepage h1 {
-    text-align: center;
-    color: white;
-    font-family: arial, sans-serif;
-  }
-  .holepage{
-
-    background-image: url("../componentes/Asset\ 16.png"),
+.holepage h1 {
+  text-align: center;
+  color: white;
+  font-family: arial, sans-serif;
+  margin-top: 0;
+}
+.holepage {
+  background-image: url("../componentes/Asset\ 16.png"),
     url("../componentes/Asset\ 17.png");
   background-blend-mode: hard-light;
   background-repeat: repeat;
-  }
-  
-  .students {
-    text-align: center;
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    border-collapse: collapse;
-    background-color: white;
-    border: 3px solid #ddd;
-    align-items: center;
-    margin: 0 auto;
-    width: 50%;
-  }
-  
-  .students td, .students th {
-    border: 1px solid #ddd;
-    padding: 8px;
-  }
-  
-  .students tr:nth-child(even){background-color: #f2f2f2;}
-  
-  .students tr:hover {background-color: #ddd;}
-  
-  .students th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: center;
-    color: rgb(168, 49, 49);
-  }
+  height: 100%;
+}
+
+.students {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  background-color: white;
+  border: 3px solid #ddd;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.students td,
+.students th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.students tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.students tr:hover {
+  background-color: #ddd;
+}
+
+.students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: rgb(168, 49, 49);
+}
