@@ -32,10 +32,10 @@ const Projectadministrator = () => {
         />
         <div className='projectadministratorLinks'>
           <div className='projectadministratorInsideLinks'>
-            <a href='/'>التعريف بالمشرف</a>
-            <a href='/'>الشهادات العلمية</a>
-            <a href='/'>العمل</a>
-            <a href='/'>الأعمال العلمية</a>
+            <a href='#desc'>التعريف بالمشرف</a>
+            <a href='#degrees'>الشهادات العلمية</a>
+            <a href='#work'>العمل</a>
+            <a href='#Sworks'>الأعمال العلمية</a>
           </div>
           <Link className='backToHomePageFromProjectadministrator' to='/'>
             العودة الى الصفحة الرئيسة

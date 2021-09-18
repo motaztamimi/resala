@@ -13,7 +13,7 @@ const WordFile = () => {
       </p>
       <p style={{ textAlign: "right" }}>
         <strong>
-          <u>الاسم: </u>
+          <u id='desc'>الاسم: </u>
         </strong>
         حسام الدين بن موسى محمد بن عفانة&nbsp;
       </p>
@@ -30,7 +30,7 @@ const WordFile = () => {
       <p style={{ textAlign: "right" }}>
         &nbsp;
         <strong>
-          <u>الشهادات العلمية</u>
+          <u id='degrees'>الشهادات العلمية</u>
         </strong>
         <strong>
           <u>:</u>
@@ -50,7 +50,7 @@ const WordFile = () => {
       </p>
       <p style={{ textAlign: "right" }}>
         <strong>
-          <u>العمل</u>
+          <u id='work'>العمل</u>
         </strong>
         <strong>
           <u>:</u>
@@ -137,7 +137,7 @@ const WordFile = () => {
       <p style={{ textAlign: "right" }}>&nbsp;</p>
       <p style={{ textAlign: "right" }}>
         <strong>
-          <u>الأعمال العلمية للأستاذ الدكتور حسام الدين عفانة</u>
+          <u id='Sworks'>الأعمال العلمية للأستاذ الدكتور حسام الدين عفانة</u>
         </strong>
       </p>
       <ol style={{ textAlign: "right" }}>
