@@ -14,7 +14,6 @@ body {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-
   background-image: url("./componentes/Asset\ 16.png"),
     url("./componentes/Asset\ 17.png");
   background-blend-mode: hard-light;
@@ -39,9 +38,6 @@ body {
   margin: 0;
 }
 .selectSection {
-  position: relative;
-  top: 50%;
-
   margin: 0 auto;
   margin-bottom: 50px;
   display: flex;
@@ -72,10 +68,10 @@ body {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 #imageHomepage {
-  position: absolute;
-
+  position: relative;
   object-fit: cover;
   bottom: 0;
+  min-height: 400px;
 }
 .selectSection i {
   font-size: 34px;
