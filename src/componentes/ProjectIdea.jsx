@@ -14,14 +14,7 @@ const projectIdea = () => {
           فتح القدير للكمال بن الهمام على الهداية شرح بداية المبتدي
         </h3>
         <h4 className='projectTitle'>لبرهان الدين المرغيناني</h4>
-        <h3
-          style={{
-            fontWeight: "900",
-            fontSize: "1.4rem",
-            marginBottom: "0px",
-          }}>
-          فكرة المشروع
-        </h3>
+        <h3>فكرة المشروع</h3>
       </div>
       <div className='ideaText'>
         <div className='projectIdeaLinks'>
