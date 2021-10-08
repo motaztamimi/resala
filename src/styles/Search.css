@@ -9,6 +9,7 @@
     url("../componentes/Asset\ 17.png");
   background-blend-mode: hard-light;
   background-repeat: repeat;
+  
   height: 100%;
 }
 
@@ -42,4 +43,11 @@
   padding-bottom: 12px;
   text-align: center;
   color: rgb(168, 49, 49);
+}
+@media only screen and (max-width: 770px) {
+  .students{
+    font-size: 20px;
+    width: 90%;
+  }
+
 }

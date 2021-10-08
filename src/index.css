@@ -77,3 +77,32 @@ body {
   font-size: 34px;
   margin-left: 5px;
 }
+@media only screen and (max-width: 770px) {
+
+  .toptext h3 {
+
+    font-size: 1.3rem;
+  }
+  .toptext {
+   
+    margin-top: 2px;
+  }
+  .selectSection{
+    flex-direction: column;
+    width: 100%;
+  }
+  .selectSection a {
+  width: 80%;
+  }
+  #imageHomepage {
+   
+    width: 400px;
+    min-height: auto;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .selectSection a {
+    font-size: 28px;
+    }
+
+}
