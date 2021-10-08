@@ -121,3 +121,24 @@
 .endText p {
   margin: 0;
 }
+
+@media (max-width: 780px) {
+  .toptext h3 {
+    font-size: 1.2rem;
+  }
+  .toptext .projectTitle {
+    font-size: 1rem;
+  }
+  .projectIdeaLinks {
+    display: none;
+  }
+  .ideaText {
+    background-color: white;
+    text-align: center;
+    width: 85%;
+    border-radius: 35px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+}

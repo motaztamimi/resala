@@ -63,3 +63,27 @@
   margin-right: 50px;
   background-color: rgb(26, 54, 26);
 }
+
+@media (max-width: 780px) {
+  .toptext h3 {
+    font-size: 1.2rem;
+  }
+  .toptext .projectTitle {
+    font-size: 1rem;
+  }
+  .projectIdeaLinks {
+    display: none;
+  }
+  .projectadministratorLinks {
+    display: none;
+  }
+  .Projectadministrator {
+    background-color: white;
+    text-align: center;
+    width: 85%;
+    border-radius: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
