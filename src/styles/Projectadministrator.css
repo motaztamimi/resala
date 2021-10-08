@@ -64,7 +64,7 @@
   background-color: rgb(26, 54, 26);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 780px) {
   .toptext h3 {
     font-size: 1.2rem;
   }
